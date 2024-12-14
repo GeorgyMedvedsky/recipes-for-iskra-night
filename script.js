@@ -1,6 +1,6 @@
 const cocktails = [
     {
-        name: "Martini Fiero Tonic / Мартини Феьерра Тоник",
+        name: "Martini Fiero Tonic / Мартини Фьерро Тоник",
         image: "./martini-fiero.webp",
         method: "Build",
         steps: ["Martini Fiero - 50 ml", "Tonic ~ 150 ml", "Долька апельсина", "Лед"]
