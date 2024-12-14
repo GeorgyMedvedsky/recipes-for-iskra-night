@@ -73,7 +73,7 @@ const cocktails = [
     },
     {
         name: "Ежевичеый Грог",
-        image: "./blackberry-pie.webp",
+        image: "./blackberry-grog.webp",
          method: "Build",
          steps: ["Bacardi Oakhart - 30 ml", "Черный чай", "Сироп Ежевика - 30 ml", "Сок лимона - 20 ml", "Долька апельсина", "Долька лимона", "Подогреть, перелить в кружку"]
     },
