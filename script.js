@@ -1,108 +1,108 @@
 const cocktails = [
     {
-        name: "Martini Fiero Tonic",
+        name: "Martini Fiero Tonic / Мартини Феьерра Тоник",
         image: "./martini-fiero.webp",
         method: "Build",
         steps: ["Martini Fiero - 50 ml", "Tonic ~ 150 ml", "Долька апельсина", "Лед"]
     },
     {
-        name: "Vachego",
+        name: "Vachego / Вачего",
         image: "./vachego.jpg",
          method: "Build",
         steps: ["Gin - 50 ml", "Cordial Blueberry - 50 ml", "Сок лимона - 10 ml", "Долька лимона", "Лед"]
     },
     {
-        name: "Aperol Spritz",
+        name: "Aperol Spritz / Апероль Шприц",
         image: "./aperol.webp",
          method: "Buld",
         steps: ["Aperol - 50 ml", "Sparkling wine - 80 ml", "Soda - 20 ml", "Долька апельсина", "Лед"]
     },
     {
-        name: "Porn Star Martini",
+        name: "Porn Star Martini / Порн Стар Мартини",
         image: "./porn-star.webp",
          method: "Shake",
         steps: ["Водка - 50 ml", "Сок лимона - 20 ml", "Сироп Ваниль - 30 ml", "Пюре маракуйя - 40 ml", "Белок - 10 ml", "Подавать безо льда с шотом игристого"]
     },
     {
-        name: "White Pear",
+        name: "White Pear / Вайт Пир",
         image: "./white-pear.webp",
          method: "Build",
         steps: ["Ром - 50 ml", "Сок лимона - 20 ml", "Сироп Груша - 30 ml", "Пюре маракуйя - 40 ml", "Белое вино - 50 ml", "Долька апельсина", "Лед"]
     },
     {
-        name: "Linchburg Lemonade",
+        name: "Linchburg Lemonade / Линчубргский Лимонад",
         image: "./linchburg.webp",
          method: "Build",
         steps: ["Бурбон - 50 ml", "Сок лимона - 20 ml", "Сироп Сахар - 20 ml", "Cointreau / Triple Sec - 20 ml", "Soda - 40 ml", "Лед"]
     },
     {
-        name: "Basil Smash",
+        name: "Basil Smash / Бейзил Смэш",
         image: "./basil.webp",
          method: "Build",
          steps: ["Gin - 50 ml", "Cordial Basil - 50 ml", "Сок лимона - 10 ml", "Долька лимона", "Лед"]
     },
     {
-        name: "Passion Sour",
+        name: "Passion Sour / Пэшн Сауэр",
         image: "./pasion.webp",
          method: "Shake",
          steps: ["Бурбон - 50 ml", "Сок лимона - 25 ml", "Сироп Сахар - 25 ml", "Пюре маракуйя - 40 ml", "Белок - 10 ml", "Долька лимона", "Подавать со льдом в роксе"]
     },
     {
-        name: "Negroni",
+        name: "Negroni / Негрони",
         image: "./negroni.webp",
          method: "Build",
         steps: ["Campari - 30 ml", "Вермут Rosso - 30 ml", "Gin - 30 ml", "Долька апельсина", "Лед"]
     },
     {
-        name: "Bramble Tonic",
+        name: "Bramble Tonic / Брамбл Тоник",
         image: "./gin-tonic.webp",
          method: "Build",
         steps: ["Gin - 50 ml", "Tonic - 150 ml", "Долька лимона", "Лед"]
     },
     {
-        name: "Spritz Strawberry & Hibiscus",
+        name: "Spritz Strawberry & Hibiscus / Шприц Клубника Гибискус",
         image: "./spritz-strawberry.webp",
          method: "Build",
          steps: ["Gin / Rum / Vodka - 50 ml", "Rocket tonic - 50 ml", "Сок лимона - 10 ml", "Сироп Клубника - 20 ml", "Tonic - 100 ml", "Долька лимона", "Лед"]
     },
     {
-        name: "Apple Pie",
+        name: "Apple Pie / Яблочный Пирог",
         image: "./apple-pie.webp",
          method: "Build",
          steps: ["Бурбон - 30 ml", "Черный чай", "Сироп Корица - 10 ml", "Сироп Сахар - 40 ml", "Сок лимона - 15 ml", "Яблоки на декор", "Подогреть, перелить в кружку"]
     },
     {
-        name: "Ежевичеый Грог",
+        name: "Blueberry Grog / Ежевичеый Грог",
         image: "./blackberry-grog.webp",
          method: "Build",
          steps: ["Bacardi Oakhart - 30 ml", "Черный чай", "Сироп Ежевика - 30 ml", "Сок лимона - 20 ml", "Долька апельсина", "Долька лимона", "Подогреть, перелить в кружку"]
     },
     {
-        name: "Маракуйя Шот (на 1 литр)",
+        name: "Passion Shot / Маракуйя Шот (на 1 литр)",
         image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 500 ml", "Пюре Маракуйя - 200 ml", "Сахар - 150 ml", "Сок лимона - 150 ml"]
     },
     {
-        name: "Личи Шот (на 1 литр)",
+        name: "Lychee Shot / Личи Шот (на 1 литр)",
         image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 500 ml", "Пюре Личи - 200 ml", "Сироп Банан - 150 ml", "Сок лимона - 150 ml"]
     },
     {
-        name: "Красный Апельсин Шот (на 1 литр)",
+        name: "Red Orange Shot / Красный Апельсин Шот (на 1 литр)",
         image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 300 ml", "Martini Fiero - 200 ml", "Сироп Сахар - 150 ml", "Сок лимона - 150 ml", "Сок апельсина - 200 ml"]
     },
     {
-        name: "Манго Шот (на 1 литр)",
+        name: "Mango Shot / Манго Шот (на 1 литр)",
         image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 500 ml", "Пюре Манго - 200 ml", "Сироп Ваниль - 150 ml", "Сок лимона - 150 ml"]
     },
     {
-        name: "Малина Шот (на 1 литр)",
+        name: "Raspberry Shot / Малина Шот (на 1 литр)",
         image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 500 ml", "Пюре Малина - 200 ml", "Сироп Роза / Малина - 150 ml", "Сок лимона - 150 ml"]
