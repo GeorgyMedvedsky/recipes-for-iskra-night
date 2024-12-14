@@ -64,7 +64,49 @@ const cocktails = [
         image: "./spritz-strawberry.webp",
          method: "Build",
          steps: ["Gin / Rum / Vodka - 50 ml", "Rocket tonic - 50 ml", "Сок лимона - 10 ml", "Сироп Клубника - 20 ml", "Tonic - 100 ml", "Долька лимона", "Лед"]
-    }
+    },
+    {
+        name: "Apple Pie",
+        image: "./apple-pie.webp",
+         method: "Build",
+         steps: ["Бурбон - 30 ml", "Черный чай", "Сироп Корица - 10 ml", "Сироп Сахар - 40 ml", "Сок лимона - 15 ml", "Яблоки на декор", "Подогреть, перелить в кружку"]
+    },
+    {
+        name: "Ежевичеый Грог",
+        image: "./blackberry-pie.webp",
+         method: "Build",
+         steps: ["Bacardi Oakhart - 30 ml", "Черный чай", "Сироп Ежевика - 30 ml", "Сок лимона - 20 ml", "Долька апельсина", "Долька лимона", "Подогреть, перелить в кружку"]
+    },
+    {
+        name: "Маракуйя Шот (на 1 литр)",
+        image: "./shot.webp",
+         method: "Build",
+        steps: ["Водка - 500 ml", "Пюре Маракуйя - 200 ml", "Сахар - 150 ml", "Сок лимона - 150 ml"]
+    },
+    {
+        name: "Личи Шот (на 1 литр)",
+        image: "./shot.webp",
+         method: "Build",
+        steps: ["Водка - 500 ml", "Пюре Личи - 200 ml", "Сироп Банан - 150 ml", "Сок лимона - 150 ml"]
+    },
+    {
+        name: "Красный Апельсин Шот (на 1 литр)",
+        image: "./shot.webp",
+         method: "Build",
+        steps: ["Водка - 300 ml", "Martini Fiero - 200 ml", "Сироп Сахар - 150 ml", "Сок лимона - 150 ml", "Сок апельсина - 200 ml"]
+    },
+    {
+        name: "Манго Шот (на 1 литр)",
+        image: "./shot.webp",
+         method: "Build",
+        steps: ["Водка - 500 ml", "Пюре Манго - 200 ml", "Сироп Ваниль - 150 ml", "Сок лимона - 150 ml"]
+    },
+    {
+        name: "Малина Шот (на 1 литр)",
+        image: "./shot.webp",
+         method: "Build",
+        steps: ["Водка - 500 ml", "Пюре Малина - 200 ml", "Сироп Роза / Малина - 150 ml", "Сок лимона - 150 ml"]
+    },
 ];
 
 const cocktailList = document.getElementById('cocktailList');
