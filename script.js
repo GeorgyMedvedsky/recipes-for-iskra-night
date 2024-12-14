@@ -79,31 +79,31 @@ const cocktails = [
     },
     {
         name: "Маракуйя Шот (на 1 литр)",
-        image: "./shot.webp",
+        image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 500 ml", "Пюре Маракуйя - 200 ml", "Сахар - 150 ml", "Сок лимона - 150 ml"]
     },
     {
         name: "Личи Шот (на 1 литр)",
-        image: "./shot.webp",
+        image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 500 ml", "Пюре Личи - 200 ml", "Сироп Банан - 150 ml", "Сок лимона - 150 ml"]
     },
     {
         name: "Красный Апельсин Шот (на 1 литр)",
-        image: "./shot.webp",
+        image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 300 ml", "Martini Fiero - 200 ml", "Сироп Сахар - 150 ml", "Сок лимона - 150 ml", "Сок апельсина - 200 ml"]
     },
     {
         name: "Манго Шот (на 1 литр)",
-        image: "./shot.webp",
+        image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 500 ml", "Пюре Манго - 200 ml", "Сироп Ваниль - 150 ml", "Сок лимона - 150 ml"]
     },
     {
         name: "Малина Шот (на 1 литр)",
-        image: "./shot.webp",
+        image: "./shots.webp",
          method: "Build",
         steps: ["Водка - 500 ml", "Пюре Малина - 200 ml", "Сироп Роза / Малина - 150 ml", "Сок лимона - 150 ml"]
     },
