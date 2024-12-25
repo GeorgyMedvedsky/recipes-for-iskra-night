@@ -22,14 +22,14 @@ const cocktails = [
     },
     {
         name: "Porn Star Martini / Порн Cтар Мартини",
-        image: "./porn-star.webp",
+        image: "./img/porn-star.webp",
          method: "Shake",
         steps: ["Водка - 50 ml", "Сок лимона - 20 ml", "Сироп Ваниль - 30 ml", "Пюре маракуйя - 40 ml", "Белок - 10 ml", "Подавать безо льда с шотом игристого"],
         type: "cocktails"
     },
     {
         name: "White Pear / Вайт Пир",
-        image: "./white-pear.webp",
+        image: "./img/white-pear.webp",
          method: "Build",
         steps: ["Ром - 50 ml", "Сок лимона - 20 ml", "Сироп Груша - 30 ml", "Пюре маракуйя - 40 ml", "Белое вино - 50 ml", "Долька апельсина", "Лед"],
         type: "cocktails"
@@ -46,7 +46,7 @@ const cocktails = [
         image: "./img/basil.webp",
          method: "Build",
          steps: ["Gin - 50 ml", "Cordial Basil - 50 ml", "Сок лимона - 10 ml", "Долька лимона", "Лед"],
-         type: "coctails"
+         type: "cocktails"
     },
     {
         name: "Passion Sour / Пэшн Сауэр",
@@ -99,7 +99,7 @@ const cocktails = [
     },
     {
         name: "Lychee Shot / Личи Шот (на 1 литр)",
-        image: "./shots.webp",
+        image: "./img/shots.webp",
         method: "Build",
         steps: ["Водка - 500 ml", "Пюре Личи - 200 ml", "Сироп Банан - 150 ml", "Сок лимона - 150 ml"],
         type: "shots"
