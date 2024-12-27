@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    position: relative;
 }
 
 header {
@@ -120,4 +121,15 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: auto;
+}
+
+#up-button {
+    display: inline-block;
+    position: fixed;
+    padding: 10px;
+    bottom: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #000;
+    opacity: .5;
 }
