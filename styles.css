@@ -45,6 +45,16 @@ input[type="text"]:focus {
 
 main {
     padding: 20px;
+    position: relative;
+}
+
+.video-background {
+    position: fixed;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
 }
 
 #cocktailList {
